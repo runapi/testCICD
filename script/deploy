@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh mostafa@192.168.1.6 <<EOF
+ssh mostafa@192.168.1.7 <<EOF
  cd ~/testCICD
  git pull
  npm install — production
