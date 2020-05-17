@@ -2,7 +2,7 @@
 ssh mostafa@192.168.1.7 <<EOF
  cd ~/testCICD
  git pull
- npm install — production
+ npm install
  pm2 restart all
  exit
 EOF
